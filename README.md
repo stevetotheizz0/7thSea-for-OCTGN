@@ -32,7 +32,7 @@ Hopefully, with the game being playable on OCTGN, we might be able to rejuvenate
 
 7th Sea is a card game about swashbuckling pirates, ruthless privateers and even undead horrors from Davy Jones’ locker. A card game for 2-6 players
 
-*7thSea Logo7th Sea is a game of high seas swashbuckling and ship-to-ship combat. In 7th Sea, you are the captain of a ship fighting for control of the seas of Théah. Whether you want to board your opponents and fight with swords, blast them with your cannons, or simply ram them to the bottom of the sea, you will organize your crew and adventure across the seas until the time is right to strike.*
+*7th Sea is a game of high seas swashbuckling and ship-to-ship combat. In 7th Sea, you are the captain of a ship fighting for control of the seas of Théah. Whether you want to board your opponents and fight with swords, blast them with your cannons, or simply ram them to the bottom of the sea, you will organize your crew and adventure across the seas until the time is right to strike.*
 
 ![7th Sea Logo](7thSea_logo2.jpg)
 
