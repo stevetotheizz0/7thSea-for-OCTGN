@@ -11,11 +11,11 @@
       &#xd;&#xd;&#xd;The game attempts to capture the feeling of a Hollywood pirate battle, complete with huge galleys, cannon-shot exchanges, and daring sea boardings. The game also has aspects of adventuring, treasure seeking, and the occult.
       &#xd;&#xd;Automation rank: D
       &#xd;(This game definition contains no automation.)"
-      setsurl="https://github.com/db0/7thSea-for-OCTGN#available-sets"
-      gameurl="https://github.com/db0/7thSea-for-OCTGN#7th-sea-ccg-plugin-for-octgn"
+      setsurl="https://github.com/stevetotheizz0/7thSea-for-OCTGN#available-sets"
+      gameurl="https://github.com/github.com/stevetotheizz0/7thSea-for-OCTGN#7th-sea-ccg-plugin-for-octgn"
       authors="Db0"
       scriptVersion="3.1.0.1"
-      iconurl="https://raw.github.com/db0/7thSea-for-OCTGN/master/7thSea_logo2.jpg">
+      iconurl="https://raw.github.com/github.com/stevetotheizz0/7thSea-for-OCTGN/master/7thSea_logo2.jpg">
   <scripts>
 	<script src="Scripts/actions.py" />
   </scripts>  
