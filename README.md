@@ -54,7 +54,7 @@ This site is the repository of all things related to this game definition. Pleas
 8. Select the .o8c files you download them one by one and install them. You will see a install window and once each pack is installed, you’ll see a pop-up window confirming this. This should take a few seconds at most.
 9. Done! You can now start a game with the included decks, or make your own in the deck editor
 
-**(Recommended)** In case you’re a new player, [grab the rulebook from here](http://dbzer0.com/pub/7thSea/7thSea_ccg_rules.pdf%E2%80%8E) (pdf).
+**(Recommended)** In case you’re a new player, [grab the rulebook from here](https://72097bb9-ee25-40ee-b5a8-363a17454f74.filesusr.com/ugd/51c7cb_2ef9693b499e4962a4adfb669ca809a8.pdf) (pdf).
 
 ##Sets
 Currently 7th Sea does not utilize OCTGN auto-generated proxies to play. You’ll need to download the card image packs to be able to play.
