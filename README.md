@@ -23,7 +23,7 @@ A lot of images in this bundle are built manually off of templates. In the futur
 Linkage
 -------
 
-Join our 7th Sea CCG discord server: https://discord.gg/4bU6b9
+Join our 7th Sea CCG discord server: https://discord.gg/wEuRey
 
 Unfortunately there's not much of a community remaining around the 7th Sea CCG actively found playing games on OCTGN. However there is a small responsive group in the [7th Sea CCG Players Facebook Group](https://www.facebook.com/groups/2233394568/) and additional resources at [The 7th Sea CCG Fan Page](http://www.7thsea.info). You can also find this game's [Board Game Geek page](http://boardgamegeek.com/boardgame/3125/7th-sea-collectible-card-game) here.
 
