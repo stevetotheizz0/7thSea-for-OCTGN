@@ -1,4 +1,4 @@
-<meta name="google-site-verification" content="tWX9qFv2JlF6tMDnVo-KbDjwa09j7RpiiVruhOu66cs" />
+<meta name="google-site-verification" content="wcV7kpKbH6TmMH3tgjEqdGx65Zr3zuKgTi3F0ZeLzoE" />
 
 7th Sea CCG plugin for OCTGN
 ============================
