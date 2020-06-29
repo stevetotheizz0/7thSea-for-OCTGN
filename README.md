@@ -1,4 +1,6 @@
+<head>
 <meta name="google-site-verification" content="wcV7kpKbH6TmMH3tgjEqdGx65Zr3zuKgTi3F0ZeLzoE" />
+</head>
 
 7th Sea CCG plugin for OCTGN
 ============================
