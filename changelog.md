@@ -1,5 +1,10 @@
 Changelog - 7th Sea CCG OCTGN Game Definition
 ===============================================
+### 2.0.2.3
+
+Updated numberous errors in card text, cost, images, etc.
+Added Red Thorfild exp from Fate's Debt. 
+
 ### 2.0.2.0
 
 Made compatible with OCTGN 3.4.X

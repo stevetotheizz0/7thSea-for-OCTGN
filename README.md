@@ -15,7 +15,7 @@ Currently 7th Sea does not utilize OCTGN auto-generated proxies to play. You'll 
 
 The link below will provide you with a download bundle you can import into OCTGN by the "add o8c" function in the game manager
 
-* [7th Sea CCG Card Images Bundle](https://drive.google.com/open?id=1WSvAcvGepHcZu6Olu30gbpdgoe1ilwSh) *(Last Updated 5/24/2020)*
+* [7th Sea CCG Card Images Bundle](https://drive.google.com/file/d/1Io9Bxla3h_xWb9O3wKuuo0o8jorXQSxZ) *(Last Updated 6/29/2020)*
 
 A lot of images in this bundle are built manually off of templates. In the future I hope I'll be adding proper high quality scans as they are procured and will provide a download link here.
 
