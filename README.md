@@ -19,13 +19,16 @@ The link below will provide you with a download bundle you can import into OCTGN
 
 A lot of images in this bundle are built manually off of templates. In the future I hope I'll be adding proper high quality scans as they are procured and will provide a download link here.
 
+Community
+---------
 
-Linkage
--------
+Join our [7th Sea CCG discord server](https://discord.gg/wEuRey)
 
-Join our 7th Sea CCG discord server: https://discord.gg/wEuRey
+[7th Sea CCG Players Facebook Group](https://www.facebook.com/groups/2233394568/) 
 
-Unfortunately there's not much of a community remaining around the 7th Sea CCG actively found playing games on OCTGN. However there is a small responsive group in the [7th Sea CCG Players Facebook Group](https://www.facebook.com/groups/2233394568/) and additional resources at [The 7th Sea CCG Fan Page](http://www.7thsea.info). You can also find this game's [Board Game Geek page](http://boardgamegeek.com/boardgame/3125/7th-sea-collectible-card-game) here.
+and additional resources at [The 7th Sea CCG Fan Page](http://www.7thsea.info). 
+
+[7th Sea Board Game Geek page](http://boardgamegeek.com/boardgame/3125/7th-sea-collectible-card-game) here.
 
 Hopefully, with the game being playable on OCTGN, we might be able to rejuvenate the community and teach new people to play. So please **do** speak up if you're around ;)
 
@@ -62,4 +65,4 @@ This site is the repository of all things related to this game definition. Pleas
 ## Contact
 If you found a bug in the game definition and want to report it, or if you have a great idea for a new feature and want to see it implemented, please report it in the [github repository for 7th Sea on OCTGN](https://github.com/stevetotheizz0/7thSea-for-OCTGN). This is the best way for the developer to see and track issues reported and you’ll also be informed when they’re closed.
 
-For additional support, join OCGTN's [Discord Server](OCTGN Community Chat & Support: https://discord.gg/Yn3Jrpj).
+For additional support, join [OCGTN's Discord Server](OCTGN Community Chat & Support: https://discord.gg/Yn3Jrpj).
