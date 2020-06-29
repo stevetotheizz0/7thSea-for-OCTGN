@@ -58,13 +58,6 @@ This site is the repository of all things related to this game definition. Pleas
 
 **(Recommended)** In case you’re a new player, [grab the rulebook from here](https://72097bb9-ee25-40ee-b5a8-363a17454f74.filesusr.com/ugd/51c7cb_2ef9693b499e4962a4adfb669ca809a8.pdf) (pdf).
 
-## Sets
-Currently 7th Sea does not utilize OCTGN auto-generated proxies to play. You’ll need to download the card image packs to be able to play.
-
-### Available Sets
-The link below will provide you with a download bundle you can import into OCTGN by the “add o8c” function in the game manager
-
-* [7th Sea CCG Card Images Bundle](https://drive.google.com/open?id=1WSvAcvGepHcZu6Olu30gbpdgoe1ilwSh) (Last Updated 5/24/2020)
 
 ## Contact
 If you found a bug in the game definition and want to report it, or if you have a great idea for a new feature and want to see it implemented, please report it in the [github repository for 7th Sea on OCTGN](https://github.com/stevetotheizz0/7thSea-for-OCTGN). This is the best way for the developer to see and track issues reported and you’ll also be informed when they’re closed.
