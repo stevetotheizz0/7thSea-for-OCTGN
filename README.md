@@ -70,3 +70,21 @@ This site is the repository of all things related to this game definition. Pleas
 If you found a bug in the game definition and want to report it, or if you have a great idea for a new feature and want to see it implemented, please report it in the [github repository for 7th Sea on OCTGN](https://github.com/stevetotheizz0/7thSea-for-OCTGN). This is the best way for the developer to see and track issues reported and you’ll also be informed when they’re closed.
 
 For additional support, join [OCGTN's Discord Server](OCTGN Community Chat & Support: https://discord.gg/Yn3Jrpj).
+
+## For Developers
+
+### How to install and run this game locally:
+
+#### Step 1
+Download .nupkg file from this repository
+
+#### Step 2
+Navigate to the Local Feed of your OCTGN. Usually this is located at C:\Users\ \Documents\OCTGN\LocalFeed
+
+If you use different locations for OCTGN and its data, the 'LocalFeed' folder might be inside OCTGN\Data\LocalFeed
+
+#### Step 3
+Drop the .nupkg file you just downloaded into this folder and start OCTGN. Under the games manager select the developer local feed option from the drop down. (Also note that the local package will need to have a higher version number than the current to update) 
+
+For testing changes, you will need to create another .nupkg file and drop it in the LocalFeed folder to run and test locally. OCTGN has a build process and build GUI included within its files and documented [here](https://github.com/octgn/OCTGN/wiki/O8build). The OCTGN discord channel can also provide additional support for developers. 
+
