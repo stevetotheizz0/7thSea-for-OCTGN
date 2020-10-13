@@ -26,7 +26,7 @@ A lot of images in this bundle are built manually off of templates. In the futur
 Community
 ---------
 
-Join our [7th Sea CCG discord server](https://discord.gg/wEuRey)
+Join our [7th Sea CCG discord server](https://discord.gg/Q9H78sb)
 
 [7th Sea CCG Players Facebook Group](https://www.facebook.com/groups/2233394568/) 
 
