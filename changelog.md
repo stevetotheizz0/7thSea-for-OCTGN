@@ -1,5 +1,9 @@
 Changelog - 7th Sea CCG OCTGN Game Definition
 ===============================================
+### 2.0.2.4
+
+Fixed various minor errors and game setup script.
+
 ### 2.0.2.3
 
 Updated numberous errors in card text, cost, images, etc.
