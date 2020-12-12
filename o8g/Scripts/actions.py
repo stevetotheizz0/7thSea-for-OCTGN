@@ -46,34 +46,6 @@ PlayerColor = "#" # Variable with the player's unique colour.
 #---------------------------------------------------------------------------
 # General functions
 #---------------------------------------------------------------------------
-   
-def chooseSide(): # Called from many functions to check if the player has chosen a side for this game.
-   mute()
-   global playerside, playeraxis
-   if playerside == None:  # Has the player selected a side yet? If not, then...
-      if len(players) < 3:
-         playeraxis = Xaxis
-         if confirm("Will you play on the right side?"): # Ask which side they want
-            playerside = 1 # This is used to swap between the two halves of the X axis of the play field. Positive is on the left.
-         else:
-            playerside = -1 # Negative is on the right.
-      else:
-         askside = askInteger("On which side do you want to setup?: 1 = Right, 2 = Left, 3 = Bottom, 4 = Top, 0 = None (All your cards will be put in the middle of the table and you'll have to arrange them yourself", 1) # Ask which axis they want,
-         if askside == 1:
-            playeraxis = Xaxis
-            playerside = 1
-         elif askside == 2:
-            playeraxis = Xaxis
-            playerside = -1
-         elif askside == 3:
-            playeraxis = Yaxis
-            playerside = 1
-         elif askside == 4:
-            playeraxis = Yaxis
-            playerside = -1
-         else:
-            playeraxis = None  
-            playerside = 0
          
 def num (s): 
 # This function reads the value of a card and returns an integer. For some reason integer values of cards are not processed correctly
@@ -237,30 +209,29 @@ def setup(group):
                          # As this function will play your whole hand and wipe your counters, we don't want any accidents.
       global playerside, playerFaction # Import some necessary variables we're using around the game.
       mute()
-      chooseSide() # The classic place where the players choose their side.
       concat_captain = '' # A string to remember our Captain's name
       concat_ship = '' # A string to remember our ship's name
       me.Deck.shuffle() # First let's shuffle our deck now that we have the chance.
       defPlayerColor() # Randomize the player's unique colour.       
       if len(table) == 0: # Only setup the Seas tokens if nobody has setup their side yet.
          TradeSea = table.create("7a5eea90-fbf1-428b-8a77-276f9595c895", 0, 0, 1, True)
-         TradeSea.moveToTable(0, -3 * cheight(TradeSea,0) ,0) # Move it to the far top
+         TradeSea.moveToTable(-3 * cheight(TradeSea,0), 0 ,0) # Move it to the far top
          FrothingSea = table.create("9b8f6f87-20b9-4ef3-b2e8-9073ac23f4e8", 0, 0, 1, True)
-         FrothingSea.moveToTable(0, -(3 / 2) * cheight(FrothingSea,3) ,0) # Move it to the top
+         FrothingSea.moveToTable(-(3 / 2) * cheight(FrothingSea,3), 0 ,0) # Move it to the top
          LaBoca = table.create("aa019c17-0c60-4d80-be22-88a1356ea71f", 0, 0, 1, True)
-         LaBoca.moveToTable(0, -2 / cheight(LaBoca,0) ,0) # Move it to the middle
+         LaBoca.moveToTable(-2 / cheight(LaBoca,0), 0 ,0) # Move it to the middle
          ForbiddenSea = table.create("130ec464-b05d-4dfc-91fe-b880432b38dd", 0, 0, 1, True)
-         ForbiddenSea.moveToTable(0, (3 / 2) * cheight(ForbiddenSea,3) ,0) # Move it to the bot
+         ForbiddenSea.moveToTable((3 / 2) * cheight(ForbiddenSea,3), 0 ,0) # Move it to the bot
          TheMirror = table.create("99fc650e-522b-402d-b776-18ec9ce8514d", 0, 0, 1, True)
-         TheMirror.moveToTable(0, 3 * cheight(TheMirror,0) ,0) # Move it to the far bot
+         TheMirror.moveToTable(3 * cheight(TheMirror,0), 0 ,0) # Move it to the far bot
       for card in group: # For every card in the player's hand... (which should be a ship and a Captain usually)
          if card.type == "ships" :  # If it's the Ship
             card.moveToTable(shipDistance(card), 0)
             playerFaction = card.Faction # We make a note of the faction the player is playing today.
-            concat_ship += card.name # And we save the name.
+            concat_ship += card.Name # And we save the name.
          elif card.type == "captains" : # If it's a Captain...
             card.moveToTable(shipDistance(card) + cardDistance(card), 0) 
-            concat_captain += card.name 
+            concat_captain += card.Name 
       # drawMany(me.Deck, 7, silent)
       # notify("{} is playing {}. They are sailing the {} with {} as their Captain.".format(me, playerFaction, concat_ship, concat_captain))
    # else: whisper('You can only setup your starting cards during the Pre-Game setup phase') # If this function was called outside the pre-game setup phase
